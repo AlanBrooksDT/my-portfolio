@@ -54,12 +54,12 @@ body {
 .headers {
     color: white;
     font-family: 'Kaushan Script';
-    font-size: 300%;
+    font-size: 2.8vw;
 }
 #bottomRight {
     position:absolute;
-    bottom:0;
-    right:0;
+    bottom:3vw;
+    right:4vw;
 }
 a {
     text-decoration: none;

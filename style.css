@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    color: white;
 }
 * {
     margin: 0;
@@ -12,7 +13,7 @@ body {
     background-size: auto 20vh;
     background-repeat: no-repeat;
   }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1624px) {
     .header-img {
         background-size: 100vw;}
   }
@@ -110,6 +111,12 @@ a.active {
     margin-right: auto;
     margin-top: 40px;
 }
+#confirmSent {
+    display: block;
+    margin: 5vw auto;
+    width: 300px;
+    border-radius: 2em;
+}
 table {
     display: table;
     margin-left: auto;
@@ -119,7 +126,7 @@ table {
 }
 form {
     /* Center the form on the page */
-    margin: 0 auto;
+    margin: 5vw auto;
     width: 400px;
     /* Form outline */
     padding: 1em;
@@ -160,7 +167,7 @@ form {
   input:focus, 
   textarea:focus {
     /* Additional highlight for focused elements */
-    border-color: #000;
+    border-color: #999;
   }
   
   textarea {
@@ -180,4 +187,5 @@ form {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: .5em;
+    width: 140px;
   }

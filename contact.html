@@ -13,34 +13,47 @@
         <nav class="navBar">
             <ul class="navBar">
                 <li><a href="aboutMe.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="quotes.html">Quotes</a></li>
                 <li><a href="travel.html">Travel</a></li>
                 <li><a class="active" href="contact.html">Contact Me</a></li>
-                <li><a target="_blank" href="https://twitter.com/AlanBrooksDT?s=09"><img id="twitter" src="twitter.png"></a></li>
+                <li><a target="_blank" href="https://twitter.com/AlanBrooksDT"><img id="twitter" src="twitter.png"></a></li>
                 <li><a target="_blank" href="https://www.linkedin.com/in/alan-brooks-69964652"><img id="linkedin" src="linkedin.png" alt="Twitter"></a></li>
             </ul>
         </nav>
     </header>
-    <form action="" method="post">
-        <ul>
-            <li>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" value="Enter your name">
-            </li>
-            <li>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="user_email" value="Enter your email address">
-            </li>
-            <li>
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
-            </li>
-            <li class="button">
-                <button id="submit" type="submit">Submit</button>
-                <button id="reset" type="reset">Clear</button>
-            </li>
-        </ul>
-    </form>
+    <div class="container">
+        <form action="" method="post">
+            <div class="row">
+                <div class="col25">
+                    <label for="name">Name:</label>
+                </div>
+                <div class="col75">
+                    <input type="text" id="name" name="user_name" value="Enter your name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col25">
+                    <label for="mail">E-mail:</label>
+                </div>
+                <div class="col75">
+                    <input type="email" id="mail" name="user_email" value="Enter your email address">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col25">
+                    <label for="msg">Message:</label>
+                </div>
+                <div class="col75">
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <button id="btnsubmit" type="submit">Submit</button>
+                <button id="btnreset" type="reset">Clear</button>
+            </div>
+       </form>
+    </div>
     <p>
       <img id="confirmSent" src=''>  
       <script src="script.js"></script>

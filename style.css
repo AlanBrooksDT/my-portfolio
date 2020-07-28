@@ -36,6 +36,11 @@ body {
       border: solid white;
       width: 100%
   }
+  @media (min-width: 700px){
+      .navBar {
+          font-size: 22px;
+      }
+  }
    .navBar a:hover {
     background-color: #ddd;
     color: black;
@@ -114,12 +119,12 @@ a.active {
 #twitter {
     width: 1em;
     height: 1em;
-    padding-top: 1vw;
+    padding-top: .5vw;
 }
 #linkedin {
     width: 4em;
     height: 1em;
-    padding-top: 1vw;
+    padding-top: .5vw;
 }
 #travelMap {
     border-radius: 50%;

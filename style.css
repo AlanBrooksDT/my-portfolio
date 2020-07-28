@@ -24,19 +24,19 @@ body {
         background-repeat: no-repeat;}
   }
   .navBar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
       background-color: black;
       color: white;
       text-align: center;
+      font-size: 3vw;
       font-family: 'Open Sans';
       border: solid white;
+      width: 100%
   }
-  .navBar li {
-    display: inline;
-    padding: 14px 16px;
-    font-size: 30px;
-    text-align: center;
-  }
-  .navBar a:hover {
+   .navBar a:hover {
     background-color: #ddd;
     color: black;
   }
@@ -102,6 +102,24 @@ a.active {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+}
+.aboutMe {
+    display:block;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#twitter {
+    width: 1em;
+    height: 1em;
+    padding-top: 1vw;
+}
+#linkedin {
+    width: 4em;
+    height: 1em;
+    padding-top: 1vw;
 }
 #travelMap {
     border-radius: 50%;

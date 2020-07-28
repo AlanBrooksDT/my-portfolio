@@ -33,8 +33,9 @@ body {
       text-align: center;
       font-size: 3vw;
       font-family: 'Open Sans';
-      border: solid white;
-      width: 100%
+      border: thin solid white;
+      box-sizing: border-box;
+      width: 100%;
   }
   @media (min-width: 700px){
       .navBar {

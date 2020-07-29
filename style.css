@@ -66,8 +66,7 @@ body {
         color: white;
         padding: 8px 16px;
         text-decoration: none;   } 
-    }
-    
+
     .navBar a:hover {
         background-color: #ddd;
         color: black; }
@@ -75,7 +74,7 @@ body {
 .navBar a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
 .imgbox {
     width: 80%;
     height: 80%;
@@ -132,6 +131,41 @@ a.active {
     background-color: #4CAF50;
     color: white;
 }
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 280px));
+    grid-gap: 20px;
+    margin: 20px;
+}
+.cards header, footer {
+    text-align: center;
+    border: thin solid white;
+    background-color: #4CAF50;
+}
+.card {
+    display: grid;
+    grid-template-rows: max-content 281px 1fr;
+    border: thin solid white;
+    text-align: center;
+}
+.card p {
+    margin: 10px;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 480px) {
+    .cards {
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .card {
+        display: block;
+    }
+    
+    }
 #smileyMe {
     border-radius: 50%;
     display: block;

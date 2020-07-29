@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
-li {
+.navBar li {
     list-style-type: none;
 }
 .header-img {
@@ -45,7 +45,34 @@ li {
           font-size: 22px;
       }
   }
-   .navBar a:hover {
+  @media screen and (max-width: 480px) {
+      .navBar {
+          border: none;
+      }
+    .navBar ul {
+        display: block;
+        width: 180px;
+        background-color: black;
+        font-family: 'Open Sans';
+        font-size: 4vw;
+        margin-top: 5px;
+        border: 1px solid white;
+    }
+    .navBar li {
+        border-bottom: 1px solid white;
+    }
+    .navBar li a {
+        display: block;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;   } 
+    }
+    
+    .navBar a:hover {
+        background-color: #ddd;
+        color: black; }
+    }
+.navBar a:hover {
     background-color: #ddd;
     color: black;
   }

@@ -1,6 +1,6 @@
 document.getElementById("btnsubmit").addEventListener("click", function(){
     document.getElementById("confirmSent").src='sent.gif'; 
-    /*event.preventDefault();*/
+    event.preventDefault();
     var nameVal = document.getElementById("name");
     var email = document.getElementById("mail");
     var textArea = document.getElementById("msg");
